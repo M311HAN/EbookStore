@@ -80,7 +80,7 @@ java EbookStore
 
 ### Running the Application
 1. Compile and run (ensure you have the JDK installed).`EbookStore.java`.
-2. java EbookStore. `java EbookStore`
+2. Run the compiled Java program. `java EbookStore`
 3. Follow the application prompts to manage your eBookstore.
 
 ## credits
