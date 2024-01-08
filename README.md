@@ -9,7 +9,7 @@ This eBookstore application is a simple yet functional Java console application 
 - [Technologies Used](#Technologies-Used)
 - [Requirements](#Requirements)
 - [setup](#Setup)
-- [Running the Application](Running-the-Application)
+- [Running the Application](#running-the-application)
 - [Credits](#credits)
 
 ## Installation
