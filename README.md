@@ -80,5 +80,5 @@ To run this project locally, follow these steps:
 1. Compile and run `EbookStore.java`.
 2. Use the console to interact with the application.
 
-## License
+## credits
 This project was created by Melihhan (https://github.com/M311HAN). For more details, questions, or feedback, reach out through GitHub.
