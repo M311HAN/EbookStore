@@ -9,7 +9,7 @@ This eBookstore application is a simple yet functional Java console application 
 - [Technologies Used](#TechnologiesUsed)
 - [Requirements](#Requirements)
 - [setup](#Setup)
-- [Running the Application](RunningtheApplication)
+- [Running the Application](Running-the-Application)
 - [Credits](#credits)
 
 ## Installation
@@ -24,23 +24,6 @@ git clone https://github.com/M311HAN/EbookStore.git
 
 # Navigate into the cloned directory with:
 cd EbookStore
-
-# If you have a SQL script to set up the database, run it using the MySQL command-line tool
-mysql -u yourusername -p < setup.sql
-
-# Replace 'yourusername' with your actual MySQL username and 
-# you will be prompted to enter your MySQL password.
-
-# Open the source code in your text editor or IDE
-# Configure your database credentials in EbookStore.java
-
-# Compile the Java program (ensure you have the JDK installed)
-javac EbookStore.java
-
-# Run the compiled Java program
-java EbookStore
-
-# Follow the application prompts to manage your eBookstore
 
 ```
 
@@ -59,9 +42,28 @@ To run this project locally, follow these steps:
 1. Install MySQL Server on your local machine.
 2. Open your MySQL client (such as MySQL Workbench or phpMyAdmin).
 3. Execute the `setup.sql` script from the `/database` directory to create the database and tables required for this project.
+```bash
+   # If you have a SQL script to set up the database, run it using the MySQL command-line tool
+mysql -u yourusername -p < setup.sql
+
+# Replace 'yourusername' with your actual MySQL username and 
+# you will be prompted to enter your MySQL password.
+
+# Open the source code in your text editor or IDE
+# Configure your database credentials in EbookStore.java
+
+# Compile the Java program (ensure you have the JDK installed)
+javac EbookStore.java
+
+# Run the compiled Java program
+java EbookStore
+
+# Follow the application prompts to manage your eBookstore
+```
+
 
 ### IDE Setup
-1. Clone the repository to your local machine explained above in "Installation".
+1. Clone the repository to your local machine Follow the Installation instructions to clone the repository.
 2. Import the project into your preferred IDE (Eclipse, IntelliJ IDEA, etc.) as a Java project.
 3. Ensure that the Java JDK is set up correctly in the project settings.
 
@@ -77,8 +79,9 @@ To run this project locally, follow these steps:
 3. Replace `YourChosenUsername` and `YourChosenPassword` with your MySQL database username and password.
 
 ### Running the Application
-1. Compile and run `EbookStore.java`.
-2. Use the console to interact with the application.
+1. Compile and run (ensure you have the JDK installed).`EbookStore.java`.
+2. java EbookStore. `java EbookStore`
+3. Follow the application prompts to manage your eBookstore.
 
 ## credits
 This project was created by Melihhan (https://github.com/M311HAN). For more details, questions, or feedback, reach out through GitHub.
